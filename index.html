@@ -32,7 +32,7 @@
       <nav class="navbar">
         <div class="logo">
           <a href="#home">
-            <h1 style="color: #b19777;">TALIGENT TECHNOLOGIES</h1>
+            <h1 style="color: #b19777; font-size: 30px;">TALIGENT TECHNOLOGIES</h1>
           </a>
         </div>
         <ul class="nav-menu">
@@ -57,8 +57,7 @@
           Your browser does not support the video tag.
         </video>
         <div class="hero-content">
-          <h1>Taligent Technologies</h1>
-          <p>Analog logic X digital artistry</p>
+          <h1 style="color: #b19777;">Taligent <br>Technologies</h1>
         </div>
       </section>
       <!-- About the Company Section -->
@@ -551,36 +550,50 @@
             <p class="text-[#b3b3b3] text-base font-light mb-4">
               Drop us a line:
             </p>
-            <form>
-              <input
-                type="text"
-                placeholder="Full Name"
-                class="w-full bg-[#1a1a1a] text-white placeholder:text-[#b3b3b3] px-4 py-3 mb-4 rounded outline-none border border-[#2a2a2a] text-sm font-light"
-              />
-              <input
-                type="email"
-                placeholder="Your Email"
-                class="w-full bg-[#1a1a1a] text-white placeholder:text-[#b3b3b3] px-4 py-3 mb-4 rounded outline-none border border-[#2a2a2a] text-sm font-light"
-              />
-              <select
-                class="w-full bg-[#c8a97e] text-black px-4 py-3 mb-4 rounded outline-none text-sm font-light"
-              >
-                <option>Select Service</option>
-                <option>Web Design</option>
-                <option>Mobile App</option>
-                <option>SEO</option>
-              </select>
-              <textarea
-                placeholder="Your Message"
-                class="w-full h-32 bg-[#1a1a1a] text-white placeholder:text-[#b3b3b3] px-4 py-3 mb-4 rounded outline-none border border-[#2a2a2a] text-sm font-light"
-              ></textarea>
-              <button
-                type="submit"
-                class="bg-[#c8a97e] text-white px-6 py-2 rounded font-light text-sm"
-              >
-                Send
-              </button>
-            </form>
+            <form action="https://formspree.io/f/xykdvjnq" method="POST">
+
+  <input
+    type="text"
+    name="fullName"
+    placeholder="Full Name"
+    required
+    class="w-full bg-[#1a1a1a] text-white placeholder:text-[#b3b3b3] px-4 py-3 mb-4 rounded outline-none border border-[#2a2a2a] text-sm font-light"
+  />
+
+  <input
+    type="email"
+    name="email"
+    placeholder="Your Email"
+    required
+    class="w-full bg-[#1a1a1a] text-white placeholder:text-[#b3b3b3] px-4 py-3 mb-4 rounded outline-none border border-[#2a2a2a] text-sm font-light"
+  />
+
+  <select
+    name="service"
+    required
+    class="w-full bg-[#c8a97e] text-black px-4 py-3 mb-4 rounded outline-none text-sm font-light"
+  >
+    <option value="">Select Service</option>
+    <option>Web Design</option>
+    <option>Mobile App</option>
+    <option>SEO</option>
+  </select>
+
+  <textarea
+    name="message"
+    placeholder="Your Message"
+    required
+    class="w-full h-32 bg-[#1a1a1a] text-white placeholder:text-[#b3b3b3] px-4 py-3 mb-4 rounded outline-none border border-[#2a2a2a] text-sm font-light"
+  ></textarea>
+
+  <button
+    type="submit"
+    class="bg-[#c8a97e] text-white px-6 py-2 rounded font-light text-sm"
+  >
+    Send
+  </button>
+
+</form>
           </div>
         </div>
       </section>
